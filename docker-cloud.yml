@@ -1,0 +1,8 @@
+api:
+  autoredeploy: true
+  image: 'djbnjack/miotars-api:latest'
+  ports:
+    - '80:8000'
+  restart: always
+  roles:
+    - global
